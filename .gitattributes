@@ -1,0 +1,5 @@
+* text=auto
+*.iss  text eol=crlf
+EULA.txt text eol=crlf
+*.png  binary
+*.otf  binary

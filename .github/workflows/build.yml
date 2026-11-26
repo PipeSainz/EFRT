@@ -1,0 +1,60 @@
+# CI: compila en Windows / macOS / Linux, corre los tests (ctest) y valida el VST3 con pluginval.
+# NOTA: este workflow no se pudo probar localmente (el desarrollo se verificó en Linux).
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, name: Windows, pluginval: pluginval_Windows.zip, vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
+          - { os: macos-latest,   name: macOS,   pluginval: pluginval_macOS.zip,   vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
+          - { os: ubuntu-latest,  name: Linux,   pluginval: pluginval_Linux.zip,   vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dependencias de JUCE (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2-dev libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev \
+            libfreetype-dev libfontconfig1-dev libgl1-mesa-dev xvfb
+
+      - name: Configurar
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DEFRT_ENABLE_LTO=OFF -DEFRT_COPY_AFTER_BUILD=OFF
+
+      - name: Compilar
+        run: cmake --build build --config Release --parallel
+
+      - name: Tests (DSP + procesador)
+        working-directory: build
+        run: ctest -C Release --output-on-failure
+
+      - name: Descargar pluginval
+        shell: bash
+        run: |
+          curl -sSL -o pluginval.zip "https://github.com/Tracktion/pluginval/releases/latest/download/${{ matrix.pluginval }}"
+          mkdir pluginval_bin && unzip -q pluginval.zip -d pluginval_bin
+
+      - name: pluginval (strictness 10)
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = "Windows" ]; then BIN=./pluginval_bin/pluginval.exe
+          elif [ "$RUNNER_OS" = "macOS" ]; then BIN=./pluginval_bin/pluginval.app/Contents/MacOS/pluginval
+          else BIN=./pluginval_bin/pluginval; chmod +x "$BIN"; fi
+          RUN=""
+          if [ "$RUNNER_OS" = "Linux" ]; then RUN="xvfb-run -a"; fi
+          $RUN "$BIN" --strictness-level 10 --validate-in-process --skip-gui-tests --timeout-ms 120000 "${{ matrix.vst3 }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EFRT-${{ matrix.name }}
+          path: build/ElFratacho_artefacts/Release/VST3/

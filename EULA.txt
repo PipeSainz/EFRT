@@ -1,0 +1,397 @@
+﻿﻿ACUERDO DE LICENCIA DE USUARIO FINAL (EULA)
+EFRT — Compresor de audio (VST3 / Standalone)
+Versión del Acuerdo: 2.0 — Última actualización: 26 de noviembre de 2026
+
+LEA ATENTAMENTE ESTE ACUERDO ANTES DE INSTALAR O USAR EL SOFTWARE.
+
+Este Acuerdo de Licencia de Usuario Final (el "Acuerdo") es un contrato entre
+usted (el "Usuario") y Felipe Sainz Molina, que
+actúa bajo el nombre comercial FSMAudio (el "Autor"), con domicilio en Ciudad 
+de la Costa, Canelones, Uruguay y correo de contacto
+felipesainzmolina@gmail.com.
+
+
+1. DEFINICIONES
+
+1.1. "Software": el programa de computadora EFRT, en todos sus formatos
+(VST3, Standalone y cualquier otro que el Autor distribuya), incluyendo su
+código objeto, algoritmos de procesamiento de señal, interfaz gráfica,
+imágenes, tipografías propias, diseños, presets de fábrica, textos,
+documentación, instalador y cualquier actualización o versión posterior que
+el Autor ponga a disposición.
+
+1.2. "Contenido de Salida": el audio que el Usuario genera al procesar su
+propio material con el Software.
+
+1.3. "Equipo": una computadora u otro dispositivo de propiedad del Usuario o
+bajo su control legítimo en el que el Software se instala y ejecuta.
+
+1.4. "Licenciantes de Terceros": los titulares de los componentes de terceros
+incluidos en el Software, descritos en la cláusula 9.
+
+
+2. ACEPTACIÓN Y CAPACIDAD
+
+2.1. Usted acepta este Acuerdo al hacer clic en "Acepto" durante la
+instalación, al instalar, copiar, ejecutar o usar de cualquier forma el
+Software, lo que ocurra primero. Si no está de acuerdo con todos los
+términos, no instale ni use el Software.
+
+2.2. Usted declara que es mayor de edad y tiene capacidad legal para
+contratar. Si acepta este Acuerdo en nombre de una empresa u organización,
+declara que tiene autoridad para obligarla; en ese caso "Usuario" se refiere
+a esa entidad.
+
+2.3. Este Acuerdo se celebra por medios electrónicos y tiene plena validez
+como contrato escrito. La aceptación electrónica equivale a la firma.
+
+
+3. OTORGAMIENTO DE LICENCIA
+
+3.1. Sujeto al cumplimiento de este Acuerdo y, cuando el Software se ofrezca
+a título oneroso, al pago íntegro del precio correspondiente, el Autor le
+otorga una licencia limitada, personal, no exclusiva, intransferible, no
+sublicenciable y revocable (en los casos previstos en la cláusula 15) para
+instalar y usar una copia del Software en hasta 2 Equipos de su
+propiedad, para un único usuario a la vez, con el fin de producir, mezclar,
+masterizar o procesar audio.
+
+3.2. El Software se LICENCIA, no se vende. El Usuario adquiere únicamente un
+derecho de uso conforme a este Acuerdo. No adquiere la propiedad del
+Software, de ninguna copia suya ni de ningún derecho de propiedad
+intelectual sobre él.
+
+3.3. Usted puede hacer una (1) copia de respaldo del instalador, exclusivamente
+para reinstalar el Software en un Equipo autorizado.
+
+3.4. Todo derecho que este Acuerdo no le otorgue expresamente queda reservado
+por el Autor. No existen licencias implícitas, por agotamiento, preclusión
+ni de ningún otro tipo.
+
+
+4. USO COMERCIAL Y CONTENIDO DE SALIDA
+
+4.1. Usted puede usar el Software para producir trabajos comerciales
+(música, grabaciones, mezclas, publicidad, cine, streaming, etc.) sin pagar
+regalías al Autor.
+
+4.2. El Autor no reclama ningún derecho sobre el Contenido de Salida. Esto no
+le otorga a usted ningún derecho sobre el Software en sí, que sigue sujeto a
+este Acuerdo.
+
+
+5. RESTRICCIONES
+
+5.1. Salvo autorización previa, expresa y por escrito del Autor, usted NO puede,
+ni permitir que otros lo hagan:
+
+a) Copiar, reproducir o instalar el Software más allá de lo permitido en la
+   cláusula 3.
+
+b) Redistribuir, publicar, revender, alquilar, prestar, arrendar, regalar,
+   sublicenciar, transferir, compartir en redes P2P, repositorios o
+   servicios de intercambio, ni poner el Software a disposición de terceros
+   de ninguna forma, sea gratis o a cambio de un precio.
+
+c) Realizar ingeniería inversa, descompilar, desensamblar, desofuscar,
+   decodificar, o intentar obtener o reconstruir el código fuente, los
+   algoritmos, la estructura interna, los modelos de procesamiento o los
+   formatos del Software, o de cualquier parte de él.
+
+d) Modificar, adaptar, traducir, fusionar, parchear o crear obras derivadas
+   del Software, ni extraer, copiar o reutilizar sus partes (incluyendo
+   imágenes, tipografías, diseños de interfaz, presets o código).
+
+e) Eludir, desactivar o alterar cualquier medida técnica de protección,
+   control de licencia o mecanismo de seguridad, o crear o usar claves,
+   cracks, generadores de claves o parches.
+
+f) Eliminar, ocultar o alterar avisos de derechos de autor, marcas, leyendas
+   u otras indicaciones de propiedad incluidos en el Software o en su
+   documentación.
+
+g) Usar el Software, su comportamiento, sus resultados o sus recursos para
+   desarrollar, entrenar, ajustar o mejorar un producto o servicio que lo
+   copie, imite o compita con él, incluidos modelos de aprendizaje
+   automático o inteligencia artificial.
+
+h) Ofrecer el Software como servicio, alojarlo para uso de terceros o
+   incorporarlo a otro producto o biblioteca de software que se distribuya.
+
+i) Usar el Software para fines ilegales o para infringir derechos de
+   terceros.
+
+j) Usar el nombre, logotipos o marcas del Autor o del Software de forma que
+   sugiera patrocinio, afiliación o respaldo, ni presentar el Software como
+   obra propia.
+
+5.2. Sobre la ingeniería inversa: si una norma imperativa de la ley aplicable
+le reconoce expresamente el derecho a descompilar con fines de
+interoperabilidad, ese derecho se limita a lo estrictamente necesario, y
+solo después de haberle solicitado por escrito al Autor la información
+necesaria y de que este no la haya proporcionado en un plazo razonable
+(treinta días). La información así obtenida es confidencial y no puede
+usarse para otro fin.
+
+
+6. PROPIEDAD INTELECTUAL Y AUTORÍA
+
+6.1. El Software es una obra protegida por las leyes de derechos de autor,
+las leyes de propiedad intelectual y los tratados internacionales aplicables.
+El Autor es el único titular de todos los derechos, títulos e intereses
+sobre el Software, incluyendo el código fuente y objeto, la arquitectura, los
+algoritmos de procesamiento de señal, la interfaz, el diseño visual, los
+presets, la documentación y el nombre "EFRT" y "FSMAudio", con excepción de
+los componentes de terceros descritos en la cláusula 9.
+
+6.2. Se mantienen en todo momento los derechos morales del Autor, incluido el
+derecho a ser reconocido como autor del Software y a la integridad de la
+obra, en la medida que la ley lo reconozca.
+
+6.3. Cualquier sugerencia, comentario o idea que usted envíe al Autor sobre
+el Software podrá ser usada por este libremente, sin obligación de pago,
+atribución ni confidencialidad. Usted le otorga al Autor una licencia
+mundial, perpetua, irrevocable, gratuita y transferible para ello.
+
+6.4. Los avisos de derechos de autor y las referencias a la propiedad
+intelectual del Software deben conservarse en toda copia permitida.
+
+
+7. MARCAS DE TERCEROS
+
+7.1. EFRT es un compresor de diseño propio. Cualquier referencia a
+equipos, circuitos o productos de terceros en el Software o en su
+documentación es meramente descriptiva y no implica afiliación, patrocinio
+ni licencia por parte de sus titulares.
+
+7.2. Todas las marcas y nombres comerciales de terceros pertenecen a sus
+respectivos dueños. El Software no es un producto de ellos, ni está
+aprobado por ellos.
+
+
+8. CÓDIGO FUENTE
+
+8.1. Este Acuerdo no incluye el código fuente. El Autor no está obligado a
+entregarlo ni a depositarlo en garantía a favor del Usuario.
+
+8.2. Si el código fuente, o parte de él, se hace público en un repositorio
+(por ejemplo, para consulta, auditoría o colaboración), ese hecho no
+transfiere ningún derecho de licencia, de uso ni de distribución más allá de
+lo que el Autor haya autorizado expresamente por escrito en una licencia
+específica de ese repositorio.
+
+
+9. COMPONENTES DE TERCEROS
+
+9.1. El Software puede incluir o enlazar componentes de terceros, entre
+ellos el framework JUCE, cuya titularidad y licencia pertenecen a sus
+respectivos Licenciantes de Terceros. Esos componentes se rigen por sus
+propias licencias, detalladas en el archivo THIRD_PARTY_NOTICES.md y en la
+documentación del Software.
+
+9.2. Nada en este Acuerdo restringe los derechos que usted tenga sobre un
+componente de terceros bajo la licencia de ese componente, ni transfiere al
+Autor la titularidad de ese componente.
+
+9.3. Los Licenciantes de Terceros no ofrecen garantías ni asumen
+responsabilidad alguna frente al Usuario por el Software.
+
+
+10. ACTUALIZACIONES Y SOPORTE
+
+10.1. El Autor no está obligado a proporcionar actualizaciones, mejoras,
+correcciones, compatibilidad con futuros sistemas operativos o DAW, ni
+soporte técnico, aunque podrá hacerlo a su discreción.
+
+10.2. Toda actualización o versión posterior que el Autor ponga a disposición
+queda sujeta a este Acuerdo, salvo que venga con otro acuerdo que la
+reemplace expresamente.
+
+
+11. PRIVACIDAD
+
+11.1. A la fecha de este Acuerdo, el Software funciona sin conexión: no
+transmite datos personales, audio, datos de uso ni información del Equipo a
+ningún servidor, y no contiene telemetría.
+
+11.2. Si una versión futura incorporara activación, verificación de licencia
+o actualizaciones por red, el Autor lo informará previamente y tratará los
+datos conforme a la ley de protección de datos personales aplicable.
+
+11.3. El proyecto o los ajustes del Software se guardan en su Equipo o en su
+DAW bajo su control.
+
+
+12. GARANTÍA Y AVISOS ESPECÍFICOS DE AUDIO
+
+12.1. EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, EL SOFTWARE SE PROPORCIONA
+"TAL CUAL" Y "SEGÚN DISPONIBILIDAD", SIN GARANTÍAS DE NINGÚN TIPO, EXPRESAS O
+IMPLÍCITAS, INCLUIDAS, SIN LIMITACIÓN, LAS DE COMERCIABILIDAD, IDONEIDAD PARA
+UN FIN PARTICULAR, TÍTULO, NO INFRACCIÓN, FUNCIONAMIENTO ININTERRUMPIDO O
+LIBRE DE ERRORES, NI COMPATIBILIDAD CON TODO SOFTWARE O HARDWARE.
+
+12.2. Aviso sobre niveles de audio. El Software puede aplicar ganancia
+significativa, compresión extrema y saturación, y puede producir niveles de
+salida muy altos, incluso de forma inesperada (por ejemplo, al automatizar
+parámetros, cambiar presets, o ante errores de configuración o de otros
+programas). Una escucha a volumen elevado puede causar daños auditivos
+permanentes y dañar parlantes, auriculares y equipos. Usted es el único
+responsable de controlar los niveles de salida, de usar un limitador de
+seguridad y de comenzar con el volumen de monitoreo bajo.
+
+12.3. Usted es responsable de hacer copias de seguridad de sus proyectos y
+datos. El Autor no responde por la pérdida o corrupción de archivos,
+sesiones, proyectos o audio.
+
+12.4. Algunas jurisdicciones no permiten excluir ciertas garantías. En esos
+casos, las exclusiones de esta cláusula se aplican solo en la medida
+permitida por la ley.
+
+
+13. LIMITACIÓN DE RESPONSABILIDAD
+
+13.1. EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, EL AUTOR NO SERÁ
+RESPONSABLE POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, EJEMPLARES NI
+CONSECUENTES, NI POR LUCRO CESANTE, PÉRDIDA DE INGRESOS, CLIENTES, DATOS,
+SESIONES O PROYECTOS, NI POR INTERRUPCIÓN DE ACTIVIDADES, NI POR DAÑOS
+AUDITIVOS O A EQUIPOS, DERIVADOS DEL USO O LA IMPOSIBILIDAD DE USAR EL
+SOFTWARE, AUN SI SE LE HUBIERA ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS.
+
+13.2. LA RESPONSABILIDAD TOTAL Y ACUMULADA DEL AUTOR FRENTE AL USUARIO, POR
+TODAS LAS RECLAMACIONES DERIVADAS DE ESTE ACUERDO O DEL SOFTWARE, NO EXCEDERÁ
+EL MAYOR ENTRE (A) EL PRECIO EFECTIVAMENTE PAGADO POR EL USUARIO POR LA
+LICENCIA DEL SOFTWARE Y (B) CINCUENTA DÓLARES ESTADOUNIDENSES (USD 50).
+
+13.3. Estas limitaciones se aplican cualquiera sea la teoría legal en que se
+funde la reclamación (contrato, responsabilidad extracontractual, negligencia
+u otra).
+
+13.4. Nada en este Acuerdo excluye o limita la responsabilidad que no pueda
+excluirse ni limitarse por ley, en particular la derivada de dolo o culpa
+grave del Autor, ni los derechos irrenunciables que la legislación de
+protección al consumidor reconozca al Usuario que sea consumidor.
+
+
+14. INDEMNIDAD
+
+14.1. Usted se obliga a mantener indemne al Autor, y a sus sucesores,
+colaboradores y licenciantes, frente a toda reclamación de terceros,
+pérdida, daño, costo y gasto (incluyendo honorarios razonables de abogados)
+que surjan del uso del Software en violación de este Acuerdo o de la ley, o
+de la violación por parte suya de derechos de terceros.
+
+
+15. VIGENCIA Y TERMINACIÓN
+
+15.1. Este Acuerdo rige desde su aceptación y continúa hasta que termine
+conforme a esta cláusula.
+
+15.2. Usted puede terminar este Acuerdo en cualquier momento desinstalando
+el Software y destruyendo todas sus copias.
+
+15.3. La licencia termina de pleno derecho y sin necesidad de aviso, ni de
+intervención judicial, si usted incumple cualquiera de sus términos,
+especialmente las cláusulas 3 y 5. El Autor podrá además revocar la
+licencia si el pago, cuando corresponda, es revertido o contracargado.
+
+15.4. Al terminar, usted debe cesar de inmediato todo uso del Software, desinstalarlo
+y eliminar todas sus copias, incluidas las de respaldo, y, si el Autor lo
+solicita, confirmarlo por escrito. El Contenido de Salida
+creado antes de la terminación sigue siendo suyo.
+
+15.5. Sobreviven a la terminación las cláusulas 4.2, 5, 6, 7, 8, 9, 12, 13,
+14, 15.4, 15.5, 16, 17 y 18, y toda otra que por su naturaleza deba
+sobrevivir.
+
+
+16. REMEDIOS Y ACCIONES
+
+16.1. Usted reconoce que el uso o la distribución del Software en violación
+de este Acuerdo causaría al Autor un daño irreparable que no puede repararse
+solo con una indemnización en dinero. En tal caso, el Autor tendrá derecho a
+solicitar medidas cautelares, de cese o de embargo, sin necesidad de
+acreditar daño efectivo, además de cualquier otro remedio, sin perjuicio de
+las acciones civiles y penales que correspondan según la legislación
+aplicable sobre derechos de autor.
+
+16.2. Los derechos y remedios del Autor son acumulativos y no excluyentes.
+
+
+17. LEY APLICABLE Y JURISDICCIÓN
+
+17.1. Este Acuerdo se rige por las leyes de la República Oriental del
+Uruguay, sin tener en cuenta sus normas sobre conflicto de leyes.
+
+17.2. Las partes se someten a la jurisdicción exclusiva de los tribunales
+ordinarios de la ciudad de Montevideo, República Oriental del Uruguay, con
+renuncia a cualquier otro fuero que pudiera corresponderles, salvo que una
+norma imperativa de protección al consumidor le reconozca al Usuario
+consumidor el derecho a litigar en el fuero de su domicilio, en cuyo caso se
+respetará ese derecho.
+
+17.3. Se excluye la aplicación de la Convención de las Naciones Unidas sobre
+los Contratos de Compraventa Internacional de Mercaderías.
+
+
+18. DISPOSICIONES GENERALES
+
+18.1. Acuerdo completo. Este Acuerdo es el acuerdo íntegro entre usted y el
+Autor respecto del Software y reemplaza cualquier acuerdo, propuesta o
+comunicación anterior sobre el mismo objeto.
+
+18.2. Divisibilidad. Si algún término de este Acuerdo fuera declarado nulo,
+ilegal o inaplicable, ese término se limitará o se reemplazará en la mínima
+medida necesaria por otro válido que refleje su intención original, y el resto
+del Acuerdo seguirá plenamente vigente.
+
+18.3. No renuncia. La falta o demora del Autor en ejercer un derecho no
+implica su renuncia. Toda renuncia debe constar por escrito y firmada por el
+Autor, y solo vale para el caso concreto.
+
+18.4. Cesión. Usted no puede ceder ni transferir este Acuerdo ni sus
+derechos u obligaciones sin autorización escrita del Autor. El Autor puede
+cederlo libremente, incluso en caso de fusión, venta de activos o cambio de
+control, y toda cesión prohibida al Usuario es nula.
+
+18.5. Modificaciones. El Autor puede actualizar este Acuerdo para versiones
+futuras del Software o por cambios legales. La nueva versión se aplicará a
+las versiones del Software que usted obtenga u opte por actualizar con
+posterioridad; no podrá reducir retroactivamente los derechos que ya haya
+adquirido. Toda modificación solicitada por usted solo vale por escrito,
+firmada por el Autor.
+
+18.6. Terceros. Este Acuerdo no crea derechos a favor de terceros, salvo lo
+dispuesto a favor de los Licenciantes de Terceros en la cláusula 9.3.
+
+18.7. Fuerza mayor. Ninguna parte responde por incumplimientos causados por
+hechos fuera de su control razonable.
+
+18.8. Cumplimiento normativo. Usted se obliga a usar el Software respetando
+las leyes de exportación y sanciones económicas que le sean aplicables y a no
+usarlo en violación de ellas.
+
+18.9. Idioma. Este Acuerdo se redacta en español. Si se ofreciera una
+traducción, prevalecerá la versión en español en caso de discrepancia.
+
+18.10. Interpretación. Los títulos son solo referenciales y no afectan la
+interpretación. "Incluido" o "incluyendo" significa "incluido sin limitación".
+
+18.11. Notificaciones. Las notificaciones al Autor se envían al correo de
+contacto indicado al inicio. Las notificaciones al Usuario podrán hacerse por
+el medio por el que adquirió el Software o por cualquier medio de contacto que
+haya proporcionado.
+
+
+19. CONTACTO
+
+Consultas sobre este Acuerdo, solicitudes de autorización o reporte de usos
+indebidos: felipesainzmolina@gmail.com
+
+
+AL HACER CLIC EN "ACEPTO", O AL INSTALAR O USAR EL SOFTWARE, USTED RECONOCE
+QUE HA LEÍDO ESTE ACUERDO, QUE LO ENTIENDE Y QUE ACEPTA QUEDAR OBLIGADO POR
+SUS TÉRMINOS.
+
+---
+© 2026 FSMAudio. Todos los derechos reservados. EFRT y FSMAudio son
+denominaciones del Autor.
