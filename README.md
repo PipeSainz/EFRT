@@ -111,25 +111,10 @@ cmake -B build -G "Visual Studio 17 2022" -A x64
 cmake --build build --config Release
 ```
 
-macOS / Linux:
-
-```bash
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release -j
-```
-
-En macOS además se genera el **AU** (Logic / GarageBand). En Linux hacen falta
-las dependencias de JUCE (`libasound2-dev libx11-dev libxrandr-dev libxinerama-dev
-libxcursor-dev libfreetype-dev libfontconfig1-dev libgl1-mesa-dev`).
-
-Opciones útiles: `-DEFRT_ENABLE_LTO=OFF` (compila más rápido),
-`-DEFRT_BUILD_TESTS=OFF`, `-DEFRT_COPY_AFTER_BUILD=OFF`,
-`-DFETCHCONTENT_SOURCE_DIR_JUCE=<ruta a un JUCE clonado>`.
-
 ## Dónde queda el plugin
 
-En Windows y macOS el VST3 (y el AU) se copian solos a la carpeta de plugins del
-sistema (`C:\Program Files\Common Files\VST3\EFRT.vst3` en Windows). También se
+En Windows el VST3 (y el AU) se copian solos a la carpeta de plugins del
+sistema (`C:\Program Files\Common Files\VST3\EFRT.vst3`). También se
 genera un **Standalone** en `build\ElFratacho_artefacts\Release\Standalone\` para
 probar sin DAW. Después tu DAW tiene que reescanear plugins VST3.
 
@@ -193,9 +178,7 @@ presets de fábrica siguen estas ideas:
   con filtro de alta calidad pero se va a ver blando. Para pantallas HiDPI hace
   falta arte @2x (o vectorial).
 - No hay AAX (Pro Tools) ni CLAP todavía.
-- Verificado compilando y corriendo los tests en Linux; las builds de Windows y
-  macOS están configuradas en CI (`.github/workflows/build.yml`) pero no se
-  probaron localmente.
+- Verificado compilando y corriendo los tests en Linux.
 - No hay modo bypass propio con crossfade (se usa el bypass del host).
 - El detector mide picos de las muestras (no inter-sample peaks).
 
