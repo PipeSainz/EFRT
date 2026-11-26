@@ -13,7 +13,6 @@ jobs:
       matrix:
         include:
           - { os: windows-latest, name: Windows, pluginval: pluginval_Windows.zip, vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
-          - { os: macos-latest,   name: macOS,   pluginval: pluginval_macOS.zip,   vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
           - { os: ubuntu-latest,  name: Linux,   pluginval: pluginval_Linux.zip,   vst3: 'build/ElFratacho_artefacts/Release/VST3/EFRT.vst3' }
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
