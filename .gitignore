@@ -9,7 +9,6 @@ CMakeCache.txt
 
 # Instalador generado
 dist/
-Installer/
 *.exe
 
 # IDE
