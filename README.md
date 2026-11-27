@@ -97,9 +97,6 @@ presets de fábrica siguen estas ideas:
 
 ## Limitaciones conocidas
 
-- El fondo de la UI es un bitmap de 480×320: al agrandar la ventana se escala
-  con filtro de alta calidad pero se va a ver blando. Para pantallas HiDPI hace
-  falta arte @2x (o vectorial).
 - No hay AAX (Pro Tools) ni CLAP todavía.
 - Verificado compilando y corriendo los tests en Linux.
 - No hay modo bypass propio con crossfade (se usa el bypass del host).
