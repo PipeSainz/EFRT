@@ -4,9 +4,9 @@ Versión del Acuerdo: 2.0 — Última actualización: 26 de noviembre de 2026
 
 LEA ATENTAMENTE ESTE ACUERDO ANTES DE INSTALAR O USAR EL SOFTWARE.
 
-Este Acuerdo de Licencia de Usuario Final (el "Acuerdo") es un contrato entre
-usted (el "Usuario") y Felipe Sainz Molina, que
-actúa bajo el nombre comercial FSMAudio (el "Autor"), con domicilio en Ciudad 
+Este Acuerdo de Licencia de Usuario Final (en adelante el "Acuerdo") es un contrato entre
+usted (en adelante el "Usuario") y Felipe Sainz Molina, que
+actúa bajo el nombre comercial FSMAudio (en adelante el "Autor"), con domicilio en Ciudad 
 de la Costa, Canelones, Uruguay y correo de contacto
 felipesainzmolina@gmail.com.
 
@@ -48,9 +48,9 @@ como contrato escrito. La aceptación electrónica equivale a la firma.
 
 3. OTORGAMIENTO DE LICENCIA
 
-3.1. Sujeto al cumplimiento de este Acuerdo y, cuando el Software se ofrezca
-a título oneroso, al pago íntegro del precio correspondiente, el Autor le
-otorga una licencia limitada, personal, no exclusiva, intransferible, no
+3.1. Sujeto al cumplimiento de este Acuerdo y cuando el Software se ofrezca
+a título oneroso, una vez realizado el pago íntegro del precio correspondiente, el Autor le
+otorgará una licencia limitada, personal, no exclusiva, intransferible, no
 sublicenciable y revocable (en los casos previstos en la cláusula 15) para
 instalar y usar una copia del Software en hasta 2 Equipos de su
 propiedad, para un único usuario a la vez, con el fin de producir, mezclar,
