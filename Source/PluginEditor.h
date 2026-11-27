@@ -4,7 +4,7 @@
 #include "PluginProcessor.h"
 
 //==============================================================================
-// Tipografía de la UI: Baron Neue (embebida como BinaryData). `height` es la altura
+// Tipografía de la UI: Josefin Sans (embebida como BinaryData). `height` es la altura
 // en el mismo sentido que juce::Font (13.0f), así que reemplaza 1:1 a las llamadas viejas.
 namespace efrt
 {
@@ -27,7 +27,7 @@ public:
                             float sliderPos, float minSliderPos, float maxSliderPos,
                             const juce::Slider::SliderStyle style, juce::Slider&) override;
 
-    // Texto de los knobs (valores), menú de presets y popups: todo en Baron Neue.
+    // Texto de los knobs (valores), menú de presets y popups: todo en Josefin Sans.
     juce::Font getLabelFont (juce::Label&) override;
     juce::Font getPopupMenuFont() override;
     juce::Font getSliderPopupFont (juce::Slider&) override;

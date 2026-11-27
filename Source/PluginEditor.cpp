@@ -14,13 +14,13 @@ namespace
 }
 
 //==============================================================================
-// Tipografía (Baron Neue)
+// Tipografía (Josefin Sans, licencia OFL)
 //==============================================================================
 juce::Font efrt::uiFont (float height, bool bold)
 {
     // Se crean una sola vez; Typeface::Ptr es ref-counted y se comparte entre instancias del plugin.
-    static const juce::Typeface::Ptr regular = juce::Typeface::createSystemTypefaceFor (BinaryData::BaronNeue_otf,     (size_t) BinaryData::BaronNeue_otfSize);
-    static const juce::Typeface::Ptr heavy   = juce::Typeface::createSystemTypefaceFor (BinaryData::BaronNeueBold_otf, (size_t) BinaryData::BaronNeueBold_otfSize);
+    static const juce::Typeface::Ptr regular = juce::Typeface::createSystemTypefaceFor (BinaryData::JosefinSansSemiBold_ttf, (size_t) BinaryData::JosefinSansSemiBold_ttfSize);
+    static const juce::Typeface::Ptr heavy   = juce::Typeface::createSystemTypefaceFor (BinaryData::JosefinSansBold_ttf,     (size_t) BinaryData::JosefinSansBold_ttfSize);
 
     const auto& face = bold ? heavy : regular;
     if (face == nullptr)                                    // asset corrupto: caer a la fuente por defecto
@@ -313,7 +313,7 @@ ElFratachoAudioProcessorEditor::ElFratachoAudioProcessorEditor (ElFratachoAudioP
     // --- Medidor y controles nuevos ---
     canvas.addAndMakeVisible (infoStrip);
 
-    presetChip.actionText = [this] { return "PRESET: " + audioProcessor.getProgramName (audioProcessor.getCurrentProgram()).toUpperCase() + "  v"; };
+    presetChip.actionText = [this] { return audioProcessor.getProgramName (audioProcessor.getCurrentProgram()).toUpperCase() + "  v"; };
     presetChip.onAction   = [this] { showPresetMenu(); };
 
     scChip.attach    (*apvts.getParameter (ParamID::scExternal), [] (const juce::RangedAudioParameter& q) { return juce::String (q.getValue() > 0.5f ? "SC EXT" : "SC INT"); });
@@ -378,8 +378,8 @@ void ElFratachoAudioProcessorEditor::resized()
         c->setBounds (x, chipY, chipW, chipH);
         x += chipW;
     }
-    osChip.setBounds   (372, 24, 52, 17);
-    autoChip.setBounds (426, 24, 52, 17);
+    osChip.setBounds   (352, 24, 58, 17);
+    autoChip.setBounds (412, 24, 66, 17);
 }
 
 void ElFratachoAudioProcessorEditor::timerCallback()

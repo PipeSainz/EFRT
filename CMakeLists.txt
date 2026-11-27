@@ -67,8 +67,8 @@ juce_add_binary_data(ElFratachoData SOURCES
     Assets/Background.png
     Assets/KnobWood.png
     Assets/DotMarble.png
-    Assets/Fonts/BaronNeue.otf
-    Assets/Fonts/BaronNeueBold.otf
+    Assets/Fonts/JosefinSans-SemiBold.ttf
+    Assets/Fonts/JosefinSans-Bold.ttf
 )
 
 set_target_properties(ElFratachoData PROPERTIES POSITION_INDEPENDENT_CODE ON)
