@@ -98,6 +98,6 @@ presets de fábrica siguen estas ideas:
 ## Limitaciones conocidas
 
 - No hay AAX (Pro Tools) ni CLAP todavía.
-- Verificado compilando y corriendo los tests en Linux.
+- Verificado compilando y corriendo los tests en Linux y Windows.
 - No hay modo bypass propio con crossfade (se usa el bypass del host).
 - El detector mide picos de las muestras (no inter-sample peaks).
